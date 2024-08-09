@@ -53,7 +53,6 @@ def callback():
     except InvalidSignatureError:
         app.logger.info("Invalid signature. Please check your channel access token/channel secret.")
         abort(400)
-
     return 'OK'
 
 @handler.add(MessageEvent, message=TextMessageContent)

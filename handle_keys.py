@@ -1,5 +1,4 @@
 import os, sys
-
 def get_secret_and_token():
     # 1. 先到Line Developer Console，把 Channel Secret & Channel Access Token複製起來
     # 2. 把這兩個密文，存到環境變數內；工具列搜尋<環境變數>，新增兩個環境變數，並且把值貼上去
